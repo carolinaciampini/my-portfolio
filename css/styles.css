@@ -15,9 +15,10 @@
 
 :root{
   --bg-color: #dcd6e7;
-  --snd-bg-color: rgb(48, 45, 54);
-  --text-color: rgb(146, 137, 167);
+  --snd-bg-color: rgb(68, 63, 77);
+  --text-color: rgb(167, 160, 184);
   --main-color: #5b5174;
+  --text-color2: rgb(30, 24, 43);
 }
 
 html{
@@ -156,7 +157,7 @@ span{
   padding: 2.5rem 0;
   margin-bottom: 2rem ;
   background: var(--snd-bg-color);
-  height: 50vh;
+  height: 60vh;
 }
 
 .headling{
@@ -167,8 +168,8 @@ span{
 
 .about-content {
   border: 2px solid var(--main-color);
-  border-radius: 16px; /* Hace que las esquinas de la caja sean redondeadas */
-  box-shadow: 0 0 20px rgba(161, 155, 155, 0.2); /* Incrementa el tamaño de la sombra */
+  border-radius: 16px; 
+  box-shadow: 0 0 20px rgba(161, 155, 155, 0.2); 
   padding: 3rem ;
   max-width: 1050px;
   margin: 0 auto;
@@ -187,6 +188,82 @@ span{
 }
 
 .projects{
-  padding: 2.5rem 0;
-  background:#66626e;
+  height: 60vh;
+  padding: 2rem 0;
+  background: var(--bg-color);
+}
+
+
+
+.project-1{
+  display: flex;
+  border: 2px solid var(--text-color);
+  border-radius: 16px; 
+  box-shadow: 0 0 20px rgba(48, 46, 46, 0.2); 
+  padding: 3rem ;
+  max-width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.icon{
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.name-project{
+  color: var(--text-color2);
+  transition: color 0.3s;
+  text-decoration: underline; 
+}
+
+.home-img{
+  margin-left: 50px;
+}
+
+.tecnologies{
+  text-align: center;
+  padding: 2rem;
+  padding: 40px;
+
+}
+
+.tecnologies h2{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.node-icon {
+  font-size: 55px;
+  color:#389950;
+  margin-bottom: 50px;
+}
+
+.react-icon{
+  width: 40px;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: column;
+  border: 2px solid var(--text-color);
+  border-radius: 16px; 
+  box-shadow: 0 0 20px rgba(48, 46, 46, 0.2); 
+  padding: 3rem ;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.icon-contact {
+    display: flex;
+    align-items: center;
+    
+ 
+}
+
+.text{
+  margin-left: 10px;
 }
